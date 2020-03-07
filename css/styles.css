@@ -5,37 +5,62 @@ body {
 }
 
 h1 {
-  margin-top: 0;
+  font-size: 90px;
+  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 2;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-size: 2.50rem;
+  font-weight: normal;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
 
 p {
   margin-bottom: 0;
 }
 
+hr {
+  border-style: dotted;
+  border-width: 10px 0 0 0;
+  border-color: #66BFBF;
+  width: 5%
+}
+
+a{
+  color:#11999E;
+  font-family:'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#EAF6F6;
+}
+
 .top-container {
   background-color: #d7fffd;
   position: relative;
   padding-top: 100px;
-
 }
 
 .middle-container {
-  background-color: #fafba4;
-  padding-bottom: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .bottom-container {
-  background-color: #eca0b6;
-  padding-top:5px;
+  background-color: #66BFBF;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .bottom-cloud {
@@ -54,8 +79,73 @@ p {
   text-decoration: underline;
 }
 
-.guitar{
-  width: 15%;
-  height: 15%
+.circle {
+  border-radius: 50%;
+}
 
+.guitar {
+  width: 15%;
+  height: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.mk {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  padding-top: 30px;
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.skills_h {
+  text-align: center;
+}
+
+.skills {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.btn {
+  margin-top: 20px;
+	box-shadow: 0 1px 0 0 #f0f7fa;
+	background:linear-gradient(to bottom, #11999E 5%, #66BFBF 100%);
+	background-color:#11999E;
+	border-radius:6px;
+	border:1px solid #66BFBF;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0 -1px 0 #5b6178;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #66BFBF 5%, #11999E 100%);
+	background-color:#11999E;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.copy{
+  padding-top: 20px;
+  color: #EAF6F6;
+  font-size: 1.72;
 }
